@@ -1,0 +1,24 @@
+SystemLog
+=========
+
+system log show in view
+
+Run in rails2 environment
+
+about me http://www.huolg.com/gems/system_log
+
+Example
+=======
+
+need gem install will_paginate
+
+Place your plugin to the vender/plugins directory
+
+set config/environment.rb
+
+  config.load_paths += %W(#{RAILS_ROOT}/vendor/plugins/system_log_rails2/init.rb)
+
+call on http:localhost.com:3000/system_log
+
+
+Copyright (c) 2013 [Huolg], released under the MIT license
